@@ -1,6 +1,6 @@
 import { runCommand } from './childProcess'
 
-export async function commitAnPush(
+export async function commitAndPush(
 	projectPath: string,
 	message: string
 ): Promise<string> {
